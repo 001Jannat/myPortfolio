@@ -8,6 +8,7 @@ import Vector2 from '../../img/Vector2.png';
 import girl from '../../img/girl.png';
 import thumbup from '../../img/thumbup.png';
 import crown from '../../img/crown.png';
+import FloatingDiv from '../FloatingDiv/FloatingDiv';
 
 
 
@@ -44,6 +45,9 @@ function Intro() {
            <img src={Vector1} alt =''/>
            <img src={Vector2} alt =''/>
            {/* <img src={girl} alt =''/> */}
+           <div>
+            <FloatingDiv/>
+           </div>
         </div>
     </div>
   )
